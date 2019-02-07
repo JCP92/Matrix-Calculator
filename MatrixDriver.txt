@@ -1,0 +1,60 @@
+GetNewMatrix 0
+3 3
+9 8 7
+6 5 4
+3 2 1
+GetNewMatrix 1
+3 3
+1 1 1
+1 1 1
+1 1 1
+GetNewMatrix 2
+3 3
+0 0 0
+0 0 0
+0 0 0
+GetNewMatrix 3
+3 3
+0 0 0
+0 0 0
+0 0 0
+GetNewMatrix 4
+2 3
+9 8 7
+6 5 4
+GetNewMatrix 5
+3 4
+1 2 3 4
+5 6 7 8
+9 10 11 12
+GetNewMatrix 6
+4 4
+2 2 2 2
+3 3 3 3 
+4 4 4 4
+5 5 5 5
+GetNewMatrix 7
+4 4 
+9 9 9 9
+8 8 8 8
+7 7 7 7 
+6 6 6 6
+AddMatricies 0 1 9
+PrintMatrix 9
+AddMatricies 5 6 9
+SubMatricies 0 1 9
+AddMatricies 5 6 9
+PrintMatrix 9
+MultMatricies 4 5 8
+MultMatricies 6 5 9
+MultMatricies 0 1 9
+PrintMatrix 1
+PrintMatrix 2
+PrintMatrix 3
+PrintMatrix 4
+PrintMatrix 5
+PrintMatrix 6
+PrintMatrix 7
+PrintMatrix 8
+
+Quit
